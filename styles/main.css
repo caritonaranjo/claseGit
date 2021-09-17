@@ -1,0 +1,22 @@
+
+body{
+    margin: 10em;
+    margin-top: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tituloPrincipal{
+text-align: center;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.listaOrdenada{
+    display: flex;
+    flex-direction: column;
+}

@@ -4,32 +4,37 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/main.css">
         <title>Practica Caritonaranjo</title>
     </head>
     <body>
+        <h1 class="tituloPrincipal"> AMO LEER</h1>
         <header>
-            <h1>PRACTICA HTML:  AMO LEER</h1>
-            <h2>LISTA ORDENADA DE HOBBIES</h2>
-            <ol>
-                <li>LIBROS</li>
-                <li>CINE</li>
-                <li>BUCEO</li>
-                <li>CAFE</li>
-                <li>PROGRAMACION</li>
             
-            </ol>
-            <h3>LISTA NO ORDENADA DE RESPONSABILIDADES</h3>
-            <ul>
+            <h2 class="tituloSecundario">LISTA ORDENADA DE HOBBIES</h2>
+            <div>
+                <ol class="listaOrdenada">
+                    <li>LIBROS</li>
+                    <li>CINE</li>
+                    <li>BUCEO</li>
+                    <li>CAFE</li>
+                    <li>PROGRAMACION</li>            
+                </ol>
+            </div>
+            <h3 class="tituloTerceario">LISTA NO ORDENADA DE RESPONSABILIDADES</h3>
+            <div>
+                <ul class="listaNoOrdenada">
                 <li>HIJOS</li>
                 <li>ESTUDIO</li>
                 <li>PACIENTES</li>
                 <li>CASA</li>
             </ul>
+        </div>
         </header>
         <main>
             <section>
                 <h1>COSAS QUE HAGO AL LEER</h1>
-                <h2>Leer reseñas de libros</h2>
+                <h2 class="tituloSecundario">Leer reseñas de libros</h2>
                 <h3>Poner post its</h3>
                 <h4>Escuchar libros</h4>
                 <h5>Pelear con  la historia</h5>
@@ -43,6 +48,36 @@
                 <a href="./test.html" target="blank">Este es un link para hacer test</a>
                 <br/>
                 <a href="./formulario.html" target="blank">Este es un link al formulario de libros</a>
+            </section>
+            <section>
+                <table width="500px">
+                    <thead>
+                        <th>nombre libro</th>
+                        <th>autor</th>
+                        <th>calificacion</th>
+                        <th>mensaje</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Persona Normal</td>
+                            <td>Benito Taibo</td>
+                            <td>5</td>
+                            <td>no seas una persona normal</td>
+                        </tr>
+                        <tr>
+                            <td>un cuento perfecto</td>
+                            <td>Elizabeth Benavent</td>
+                            <td>5</td>
+                            <td>no miedo a miedo</td>
+                        </tr>
+                        <tr>
+                            <td>Verity</td>
+                            <td>Colleen Hoover</td>
+                            <td>4.3</td>
+                            <td>nada es lo que parece</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
             <article>
                 <h2>Parrafos sobre ultimas lecturas</h2>
